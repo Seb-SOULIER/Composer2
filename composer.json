@@ -1,0 +1,14 @@
+{
+    "name": "soulier/twig1",
+    "description": "Projet quete composer",
+    "authors": [
+        {
+            "name": "Seb-SOULIER",
+            "email": "soulier.sebastien.ss@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {"Acme\\":"twig1"}
+    }
+}
