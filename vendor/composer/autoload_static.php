@@ -7,16 +7,26 @@ namespace Composer\Autoload;
 class ComposerStaticInit653579e56d09704b1bbc4c96b1c8b2d6
 {
     public static $prefixLengthsPsr4 = array (
-        'W' => 
+        'A' => 
         array (
-            'Wcs\\' => 4,
+            'App\\' => 4,
         ),
     );
 
     public static $prefixDirsPsr4 = array (
-        'Wcs\\' => 
+        'App\\' => 
         array (
             0 => __DIR__ . '/../..' . '/src',
+        ),
+    );
+
+    public static $prefixesPsr0 = array (
+        'H' => 
+        array (
+            'HelloWorld' => 
+            array (
+                0 => __DIR__ . '/..' . '/ehime/hello-world/src',
+            ),
         ),
     );
 
@@ -29,6 +39,7 @@ class ComposerStaticInit653579e56d09704b1bbc4c96b1c8b2d6
         return \Closure::bind(function () use ($loader) {
             $loader->prefixLengthsPsr4 = ComposerStaticInit653579e56d09704b1bbc4c96b1c8b2d6::$prefixLengthsPsr4;
             $loader->prefixDirsPsr4 = ComposerStaticInit653579e56d09704b1bbc4c96b1c8b2d6::$prefixDirsPsr4;
+            $loader->prefixesPsr0 = ComposerStaticInit653579e56d09704b1bbc4c96b1c8b2d6::$prefixesPsr0;
             $loader->classMap = ComposerStaticInit653579e56d09704b1bbc4c96b1c8b2d6::$classMap;
 
         }, null, ClassLoader::class);

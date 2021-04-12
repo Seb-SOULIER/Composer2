@@ -1,5 +1,5 @@
 <?php
-namespace Wcs\wcs;
+namespace App\wcs;
 
 class Hello
 {

@@ -30,11 +30,20 @@ private static $installed = array (
     'aliases' => 
     array (
     ),
-    'reference' => 'c1a5bc87dd2a885e1c41636b9ea0e2ba9fa8f865',
+    'reference' => '707a6baee9eba1efdd781de463f44b9a4fab8925',
     'name' => 'soulier/twig1',
   ),
   'versions' => 
   array (
+    'ehime/hello-world' => 
+    array (
+      'pretty_version' => '1.0.5',
+      'version' => '1.0.5.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => 'b1c8cdd2c11272d8c5deec7816e51fa5374217c1',
+    ),
     'soulier/twig1' => 
     array (
       'pretty_version' => 'dev-master',
@@ -42,7 +51,7 @@ private static $installed = array (
       'aliases' => 
       array (
       ),
-      'reference' => 'c1a5bc87dd2a885e1c41636b9ea0e2ba9fa8f865',
+      'reference' => '707a6baee9eba1efdd781de463f44b9a4fab8925',
     ),
   ),
 );
